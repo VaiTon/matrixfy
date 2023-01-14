@@ -21,7 +21,7 @@ dependencies {
     implementation("net.folivo:trixnity-client-repository-exposed:$trixnityVersion")
     implementation("net.folivo:trixnity-client-repository-realm:$trixnityVersion")
 
-    val exposedVersion = "0.40.1"
+    val exposedVersion = "0.41.1"
     implementation("org.jetbrains.exposed:exposed-core:$exposedVersion")
     implementation("org.jetbrains.exposed:exposed-dao:$exposedVersion")
     implementation("org.jetbrains.exposed:exposed-jdbc:$exposedVersion")
