@@ -1,9 +1,13 @@
-# Build
+# Matrixfy
+
+A simple bot to control your spotify account from matrix
+
+## Build
 
 1. Checkout the repository
 2. Build via `./gradlew build`
 
-# Deploy
+## Deploy
 
 > Before deplying you need to build the project
 
@@ -17,7 +21,7 @@
 7. Copy the redirect url and paste it into the console
 8. Enjoy! :)
 
-# Interact
+## Interact
 
 The bot still doesn't support joining rooms.
 
