@@ -1,0 +1,7 @@
+{
+  "spotifyClientId": "",
+  "spotifyClientSecret": "",
+  "spotifyRedirectUrl": "https://localhost",
+  "matrixUser": "",
+  "matrixHomeserverUrl": ""
+}

@@ -1,0 +1,13 @@
+# Gradle and build
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+
+# App config and storage
+config.json
+data.json
+default.realm*
+default.realm.management/
+matrixfy.db
