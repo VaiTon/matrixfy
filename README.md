@@ -12,8 +12,8 @@ A simple bot to control your spotify account from matrix
 > Before deplying you need to build the project
 
 1. Copy one of the `build/distributions/*` files to your server, then unzip/untar the file.
-2. Run the `bin/` script. The server will create a config.json file in the same directory and exit
-3. Create a spotify app at the [spotify developer hub](https://developer.spotify.com/dashboard/applications).
+2. Run the `bin/` script. The software will create a config.json file in the same directory and exit
+3. Create a spotify app via the [spotify developer hub](https://developer.spotify.com/dashboard/applications).
 4. Add
    the `spotifyClientId` and `spotifyClientSecret` to the `config.json` file
 5. Run the `bin/` script again
