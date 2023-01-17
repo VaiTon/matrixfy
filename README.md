@@ -11,15 +11,15 @@ A simple bot to control your spotify account from matrix
 
 > Before deplying you need to build the project
 
-1. Copy one of the `build/distributions/*` files to your server, then unzip/untar the file.
-2. Run the `bin/` script. The software will create a config.json file in the same directory and exit
-3. Create a spotify app via the [spotify developer hub](https://developer.spotify.com/dashboard/applications).
-4. Add
-   the `spotifyClientId` and `spotifyClientSecret` to the `config.json` file
-5. Run the `bin/` script again
-6. The server will print a URL to the console, open it in your browser and login with the selected matrix account.
-7. Copy the redirect url and paste it into the console
-8. Enjoy! :)
+1. Create a matrix account for the bot on your favourite homeserver.
+2. Copy one of the `build/distributions/*` files to your server, then unzip/untar the file.
+3. Run the `bin/` script. The software will create a config.json file in the same directory and exit
+4. Create a spotify app via the [spotify developer hub](https://developer.spotify.com/dashboard/applications) and get the client id and secret.
+5. Add `spotifyClientId` and `spotifyClientSecret` to the `config.json` file
+6. Run the `bin/` script again
+7. The server will print a URL to the console, open it in your browser and login with the matrix account you first created for the bot.
+8. Copy the redirect url and paste it into the console
+9. Enjoy! :)
 
 ## Interact
 
