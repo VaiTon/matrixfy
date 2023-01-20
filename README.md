@@ -1,6 +1,6 @@
 # Matrixfy
 
-A simple bot to control your spotify account from matrix
+A simple bot to control your spotify account from matrix.
 
 > This is a work in progress, and is not ready for production use. Feel free to contribute! :)
 
@@ -40,3 +40,9 @@ Then, you can send commands to the bot via any account that is in the room.
 | `!skip`           | Skips the current song            |
 | `!playing`        | Prints the currently playing song |
 | `<spotify uri>`   | Plays a song                      |
+
+## Credits
+
+This project would not be possible without the help of:
+- [Trixnity, the multiplatform Kotlin SDK for Matrix](https://gitlab.com/trixnity/trixnity)
+- [Kotlin Spotify Web API](https://github.com/adamint/spotify-web-api-kotlin)
