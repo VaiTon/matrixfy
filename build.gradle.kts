@@ -30,7 +30,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-html:$kotlinxHtmlVersion")
     implementation("org.jetbrains.kotlinx:kotlinx-html-jvm:$kotlinxHtmlVersion")
 
-    implementation("org.xerial:sqlite-jdbc:3.40.0.0")
+    implementation("org.xerial:sqlite-jdbc:3.40.1.0")
     implementation("io.ktor:ktor-client-java:2.2.3")
     implementation("ch.qos.logback:logback-classic:1.4.5")
     testImplementation(kotlin("test"))
