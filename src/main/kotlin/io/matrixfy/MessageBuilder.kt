@@ -9,12 +9,14 @@ import net.folivo.trixnity.core.TrixnityDsl
 
 @TrixnityDsl
 inline fun MessageBuilder.html(
-    crossinline block: DIV.() -> Unit
+    crossinline block: DIV.() -> Unit,
 ) {
     val body = createHTML().div(block = block)
+        .removePrefix("<div>")
+        .removeSuffix("</div>")
     text(
         body = body,
-        format = "org.matrix.custom.io.matrixfy.html",
+        format = "org.matrix.custom.html",
         formattedBody = body
     )
 }
