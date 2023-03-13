@@ -15,7 +15,7 @@ dependencies {
     val spotifyApiVersion = "4.0.0"
     implementation("com.adamratzman:spotify-api-kotlin-core:$spotifyApiVersion")
 
-    val trixnityVersion = "3.4.1"
+    val trixnityVersion = "3.5.0"
     implementation("net.folivo:trixnity-client:$trixnityVersion")
     implementation("net.folivo:trixnity-client-media-okio:$trixnityVersion")
     implementation("net.folivo:trixnity-client-repository-exposed:$trixnityVersion")
