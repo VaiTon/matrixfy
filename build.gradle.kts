@@ -26,7 +26,7 @@ dependencies {
     implementation("org.jetbrains.exposed:exposed-dao:$exposedVersion")
     implementation("org.jetbrains.exposed:exposed-jdbc:$exposedVersion")
 
-    val kotlinxHtmlVersion = "0.8.0"
+    val kotlinxHtmlVersion = "0.8.1"
     implementation("org.jetbrains.kotlinx:kotlinx-html:$kotlinxHtmlVersion")
     implementation("org.jetbrains.kotlinx:kotlinx-html-jvm:$kotlinxHtmlVersion")
 
