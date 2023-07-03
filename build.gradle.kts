@@ -30,7 +30,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-html:$kotlinxHtmlVersion")
     implementation("org.jetbrains.kotlinx:kotlinx-html-jvm:$kotlinxHtmlVersion")
 
-    implementation("io.ktor:ktor-client-java-jvm:2.3.0")
+    implementation("io.ktor:ktor-client-java-jvm:2.3.2")
     implementation("ch.qos.logback:logback-classic:1.4.6")
     testImplementation(kotlin("test"))
 }
