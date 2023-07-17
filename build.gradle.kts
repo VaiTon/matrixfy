@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    val spotifyApiVersion = "4.0.0"
+    val spotifyApiVersion = "4.0.2"
     implementation("com.adamratzman:spotify-api-kotlin-core:$spotifyApiVersion")
 
     val trixnityVersion = "3.6.1"
